@@ -4,12 +4,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div {
+.header {
     position: sticky;
     top: 0;
     background-color: #8d2a1b;
     padding: 20px;
     
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: centers items horizontally */
+    gap: 20px; /* Optional: adds space between elements */
 }
 
 h1 {
