@@ -8,15 +8,15 @@ body {
     position: sticky;
     top: 0;
     background-color: #8d2a1b;
-    padding: 20px;
+    padding: 10px;
     
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Optional: centers items horizontally */
-    gap: 20px; /* Optional: adds space between elements */
+    align-items: center; 
+    gap: 20px; 
 }
 
 h1 {
@@ -26,12 +26,19 @@ h1 {
     font-size: xx-large;
 }
 
-h2 {
+p {
     color: rgb(25, 76, 177);
     font-size: large;
+}
 
+img {
+    width: 50%;
 }
 
 img:hover {
     width: 60%;
+}
+
+.button1 {
+    background-color: chocolate;
 }
